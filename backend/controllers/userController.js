@@ -50,7 +50,7 @@ const signup = async(req, res) => {
       }
     }
     else{
-      res.status(401).json({ message: 'User does not Exist with this login method.' });
+      res.status(401).json({ message: 'User does not Exist or has different login method.' });
     }
   };
 

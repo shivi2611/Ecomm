@@ -2,6 +2,7 @@ import crypto from 'crypto';
 import nodemailer from 'nodemailer'; 
 import jwt from 'jsonwebtoken';
 import UserModel from '../models/userModel.js';
+import bcrypt from 'bcryptjs';
 
 //import UserModel from '../models/userModel.js';
 
@@ -28,8 +29,8 @@ const authorizeUser = (roles) => {
             return res.status(401).json({ message: 'Not Authorized: invalid token or insufficient permissions' });
         }
     } catch (err) {
-        console.error('An error occured while authorizing user', err.message);
-        return res.status(500).json({ message: 'An error occurred while authorizing user' });
+        console.error(err.message);
+        return res.status(500).json({ message: err.message });
     }
     next();
     };

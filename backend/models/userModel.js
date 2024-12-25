@@ -46,7 +46,7 @@ userSchema.pre('save', async function(next) {
     if(this.isNew && !isPasswordValid(this.password)) {
         return next(new Error('Password is invalid'));
     }
-    else{
+    else if(this.isNew){
         this.password = await bcrypt.hash(this.password, 10);
         next();
     }

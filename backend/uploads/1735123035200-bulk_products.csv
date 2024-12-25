@@ -1,0 +1,8 @@
+name,brand,category,price,description,variants,seller
+Jacket,Monte Carlo,676976fd03678e6bb079faac,3000,Description1,"[{""color"": ""red"", ""size"": ""M""}, {""color"": ""blue"", ""size"": ""L""}]",6769440229f928e4d0ec0bd7
+Shoes,Nike,676976fd03678e6bb079faac,2000,Description2,"[{""color"": ""red"", ""size"": ""M""}, {""color"": ""blue"", ""size"": ""L""}]",6769440229f928e4d0ec0bd7
+Socks,abc,6769456029f928e4d0ec0bde,50,Description2,"[{""color"": ""red"", ""size"": ""M""}, {""color"": ""blue"", ""size"": ""L""}]",6769440229f928e4d0ec0bd7
+Tops,abc,6769456029f928e4d0ec0bde,400,Description2,"[{""color"": ""red"", ""size"": ""M""}, {""color"": ""blue"", ""size"": ""L""}]",6769440229f928e4d0ec0bd7
+Skirts,abc,6769456029f928e4d0ec0bde,500,Description2,"[{""color"": ""red"", ""size"": ""M""}, {""color"": ""blue"", ""size"": ""L""}]",6769440229f928e4d0ec0bd7
+Trouser,abc,6769456029f928e4d0ec0bde,700,Description2,"[{""color"": ""red"", ""size"": ""M""}, {""color"": ""blue"", ""size"": ""L""}]",6769440229f928e4d0ec0bd7
+Saree,abc,6769456029f928e4d0ec0bde,900,Description2,"[{""color"": ""red"", ""size"": ""M""}, {""color"": ""blue"", ""size"": ""L""}]",6769440229f928e4d0ec0bd7
