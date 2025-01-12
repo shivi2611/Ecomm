@@ -2,7 +2,6 @@ import productModel from '../models/productModel.js';
 import {checkProductValidation} from './validators.js';
 
 const bulkAddProductsLogic = async(products) => {
-    //check for uniqueness of products and insert, validation checks are automatic.
     let failedProducts = [];
     let addedProducts = 0;
     let insertedProducts = [];
